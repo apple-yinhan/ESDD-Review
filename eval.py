@@ -2,8 +2,8 @@ from data_utils import genSpoof_list, ADD_Dataset, eval_to_score_file
 import json
 
 print('====== Evaluation ======')
-dir_path = '/home/han/projects/EnvSDD-main/eval_output/track_2_label.json'
-eval_output = '/home/han/projects/EnvSDD-main/eval_output/track_2_b02.txt'
+dir_path = '.track_2_label.json'
+eval_output = '.track_2_b02.txt'
 # target_generators = ['audiolcm', 'tangoflux', 'audioldm2'] 
 target_generators = ['foleycrafter', 'diff_foley']
 
